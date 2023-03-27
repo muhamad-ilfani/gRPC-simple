@@ -1,0 +1,1 @@
+{"buildTargets":["gen_client","gen_server","rm_client","rm_server"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

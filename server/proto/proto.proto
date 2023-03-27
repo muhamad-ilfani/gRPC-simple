@@ -1,0 +1,16 @@
+syntax="proto3";
+
+package grpc_steaming;
+
+option go_package=".;grpc_streaming";
+
+message Request{
+    int32 id = 1;
+}
+message Result{
+    string result = 1;
+}
+
+service StreamService{
+    rpc FetchResponse (Request) returns (stream Result){}
+}

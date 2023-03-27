@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dell/Documents/Backend/Internal_Training/GRPC_streaming'
+protoc -I server/proto server/proto/proto.proto --go_out=server/proto --go-grpc_out=require_unimplemented_servers=false:server/proto
+make: Leaving directory '/home/dell/Documents/Backend/Internal_Training/GRPC_streaming'
+ 
